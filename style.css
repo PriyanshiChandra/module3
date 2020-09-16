@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #61122f;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand{
+    text-shadow: 1px 1px 1px #222222;
+}
+
+
