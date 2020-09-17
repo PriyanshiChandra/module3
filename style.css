@@ -29,4 +29,6 @@ body{
     filter: invert(100%);
 }
 
-
+.w-100{
+    height: 85vh;
+}
