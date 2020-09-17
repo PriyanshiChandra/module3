@@ -19,5 +19,16 @@ body{
 .navbar-brand{
     text-shadow: 1px 1px 1px #222222;
 }
-
+#item-2{
+    color: black;
+    background-color:palegreen;
+    
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.w-100{
+    height: 85vh;
+}
 
