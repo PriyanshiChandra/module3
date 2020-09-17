@@ -1,13 +1,8 @@
 *{
     box-sizing: border-box;
 }
-
-play=swap');
-
 body{
     font-size: 16px;
-    color: #ffffff;
-    background-color: #61122f;
     font-family: 'Montserrat', sans-serif;
    
 }
@@ -19,16 +14,55 @@ body{
 .navbar-brand{
     text-shadow: 1px 1px 1px #222222;
 }
+
 #item-2{
     color: black;
-    background-color:palegreen;
-    
+    background-color:rgb(152, 251, 152, 0.8)  
+}
+#item-1{
+    color:white;
+    background-color: rgb(255,0,0,0.7);
+}
+#item-3{
+    color: white;
+    background-color:rgb(255, 191, 0, 0.8);
 }
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
 }
-
 .w-100{
-    height: 85vh;
+    height: 75vh;
+}
+@media not screen and (max-width:400px){
+    #text{
+    text-align: center;
+    padding-top: 100px;
+    margin: 20px ;
+    padding-right: 50px;
+    }
+    p{
+    font-size: large;
+    }
+    .iwala{
+        text-align: center;
+    }
+}
+#text{
+    text-align: center;
+    padding: 10px;
+    font-size:16px;
+    margin: 10px;
+    
+}
+
+.wrd{
+    font-size: x-small;
+}
+#text{
+    text-align: center;
+}
+#pic{
+    text-align: center;
+    margin-top: 15px;
 }
